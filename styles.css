@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    background: #f39c12;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.contact-info span {
+    margin-right: 20px;
+    color: #fff;
+}
+
+.request-consult button {
+    background: #d35400;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+nav {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background: url('path/to/hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.hero h1 {
+    margin: 10px 0;
+    font-size: 48px;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.hero-buttons button {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+    color: #fff;
+}
+
+.services .service {
+    text-align: center;
+    width: 30%;
+}
+
+.services .service i {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about-us {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f7f7f7;
+}
+
+.about-us h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.about-us p {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.about-us button {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.our-services {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.our-services h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.our-services .services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.our-services .service-item {
+    flex: 1 1 30%;
+    max-width: 30%;
+    text-align: center;
+    margin: 10px;
+}
+
+.our-services .service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.our-services .service-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+footer {
+    background: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .socials .social-icon {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+footer .socials .social-icon:hover {
+    color: #f39c12;
+}
